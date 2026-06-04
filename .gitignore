@@ -3,28 +3,39 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
+*.py[cod]
+*.so
+*.egg
 *.egg-info/
 dist/
 build/
+eggs/
+.eggs/
 
-# Environment
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
 .env
-*.env
+.env.*
+!.env.example
 
 # IDE
 .vscode/
 .idea/
+*.iml
 
 # Streamlit
 .streamlit/secrets.toml
 
-# Screenshots / temp
+# Screenshots / temp files
 *.png
 *.jpg
 *.jpeg
 take_screenshots*.py
-take_screenshots2.py
 nav_check.py
 nav2.py
 ss.py
@@ -32,6 +43,14 @@ ui_check.py
 run_e2e.py
 cloudflare_output.txt
 cloudflare_error.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # OS
 .DS_Store
