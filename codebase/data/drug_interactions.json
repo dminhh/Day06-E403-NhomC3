@@ -1,0 +1,166 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-03",
+  "interactions": [
+    {
+      "drug_a": "Warfarin",
+      "drug_b": "Aspirin",
+      "aliases_a": ["warfarin", "coumadin", "jantoven"],
+      "aliases_b": ["aspirin", "acetylsalicylic acid", "aspegic"],
+      "severity": "nặng",
+      "description_vi": "Warfarin và Aspirin kết hợp làm tăng đáng kể nguy cơ chảy máu nghiêm trọng, đặc biệt xuất huyết tiêu hóa và nội sọ.",
+      "recommendation_vi": "Tránh kết hợp nếu không có chỉ định đặc biệt. Nếu bắt buộc, theo dõi INR thường xuyên và dùng liều Aspirin thấp nhất có thể.",
+      "mechanism_vi": "Aspirin ức chế kết tập tiểu cầu và có thể làm tăng tác dụng chống đông của Warfarin."
+    },
+    {
+      "drug_a": "Metformin",
+      "drug_b": "Rượu bia",
+      "aliases_a": ["metformin", "glucophage", "glucophage xr"],
+      "aliases_b": ["alcohol", "ethanol", "rượu", "bia"],
+      "severity": "trung bình",
+      "description_vi": "Metformin kết hợp với rượu bia làm tăng nguy cơ nhiễm toan lactic - một biến chứng hiếm gặp nhưng nguy hiểm.",
+      "recommendation_vi": "Hạn chế tối đa việc uống rượu bia khi đang dùng Metformin. Không uống rượu khi bụng đói.",
+      "mechanism_vi": "Rượu làm tăng nồng độ lactat máu, Metformin ức chế gluconeogenesis từ lactat, dẫn đến tích tụ lactat."
+    },
+    {
+      "drug_a": "ACE Inhibitor",
+      "drug_b": "Ibuprofen",
+      "aliases_a": ["captopril", "enalapril", "lisinopril", "perindopril", "ramipril", "ace inhibitor"],
+      "aliases_b": ["ibuprofen", "advil", "nurofen", "brufen"],
+      "severity": "trung bình",
+      "description_vi": "NSAIDs như Ibuprofen làm giảm hiệu quả của thuốc ức chế ACE và tăng nguy cơ suy thận cấp.",
+      "recommendation_vi": "Ưu tiên dùng Paracetamol thay thế. Nếu cần dùng Ibuprofen, theo dõi huyết áp và chức năng thận.",
+      "mechanism_vi": "NSAIDs ức chế tổng hợp prostaglandin, làm giảm lưu lượng máu đến thận và giảm hiệu quả thuốc hạ áp."
+    },
+    {
+      "drug_a": "Statin",
+      "drug_b": "Amiodarone",
+      "aliases_a": ["atorvastatin", "simvastatin", "rosuvastatin", "statin", "lipitor", "zocor"],
+      "aliases_b": ["amiodarone", "cordarone", "pacerone"],
+      "severity": "nặng",
+      "description_vi": "Amiodarone ức chế chuyển hóa Statin, làm tăng nồng độ Statin trong máu dẫn đến nguy cơ bệnh cơ (myopathy) và tiêu cơ vân.",
+      "recommendation_vi": "Nếu cần kết hợp, dùng liều Statin thấp nhất. Theo dõi men cơ (CK) định kỳ. Ưu tiên Rosuvastatin với liều giới hạn.",
+      "mechanism_vi": "Amiodarone ức chế CYP2C9 và CYP3A4, làm tăng AUC của nhiều loại Statin lên 2-5 lần."
+    },
+    {
+      "drug_a": "Clopidogrel",
+      "drug_b": "Omeprazole",
+      "aliases_a": ["clopidogrel", "plavix"],
+      "aliases_b": ["omeprazole", "losec", "prilosec", "pantoprazole"],
+      "severity": "trung bình",
+      "description_vi": "Omeprazole ức chế CYP2C19, làm giảm chuyển hóa Clopidogrel thành dạng hoạt tính, giảm hiệu quả chống kết tập tiểu cầu.",
+      "recommendation_vi": "Cân nhắc dùng Pantoprazole hoặc Ranitidine thay thế Omeprazole nếu cần bảo vệ dạ dày.",
+      "mechanism_vi": "Clopidogrel là tiền thuốc cần CYP2C19 để chuyển hóa thành dạng hoạt động."
+    },
+    {
+      "drug_a": "Digoxin",
+      "drug_b": "Amiodarone",
+      "aliases_a": ["digoxin", "lanoxin"],
+      "aliases_b": ["amiodarone", "cordarone"],
+      "severity": "nặng",
+      "description_vi": "Amiodarone làm tăng nồng độ Digoxin trong máu, dẫn đến nguy cơ ngộ độc Digoxin với biểu hiện buồn nôn, rối loạn nhịp tim.",
+      "recommendation_vi": "Giảm liều Digoxin 50% khi bắt đầu Amiodarone. Theo dõi nồng độ Digoxin và nhịp tim thường xuyên.",
+      "mechanism_vi": "Amiodarone ức chế P-glycoprotein và CYP3A4, làm giảm thải trừ Digoxin."
+    },
+    {
+      "drug_a": "SSRI",
+      "drug_b": "Tramadol",
+      "aliases_a": ["fluoxetine", "sertraline", "paroxetine", "escitalopram", "citalopram", "ssri"],
+      "aliases_b": ["tramadol", "ultram", "toradol"],
+      "severity": "nặng",
+      "description_vi": "Kết hợp SSRI với Tramadol có thể gây hội chứng serotonin - một tình trạng nguy hiểm đến tính mạng.",
+      "recommendation_vi": "Tránh kết hợp. Nếu cần giảm đau mạnh, cân nhắc dùng opioid khác không ảnh hưởng serotonin.",
+      "mechanism_vi": "Cả hai đều tăng serotonin: SSRI ức chế tái hấp thu, Tramadol ức chế tái hấp thu serotonin/norepinephrine và kích thích thụ thể opioid."
+    },
+    {
+      "drug_a": "Methotrexate",
+      "drug_b": "Ibuprofen",
+      "aliases_a": ["methotrexate", "mtx", "rheumatrex", "trexall"],
+      "aliases_b": ["ibuprofen", "naproxen", "nsaid", "diclofenac", "ketoprofen"],
+      "severity": "nặng",
+      "description_vi": "NSAIDs làm giảm thải trừ Methotrexate qua thận, dẫn đến độc tính nghiêm trọng cho tủy xương, gan và thận.",
+      "recommendation_vi": "Chống chỉ định kết hợp. Dùng Paracetamol thay NSAIDs nếu cần giảm đau.",
+      "mechanism_vi": "NSAIDs ức chế tiết ống thận và cạnh tranh liên kết protein huyết tương với Methotrexate."
+    },
+    {
+      "drug_a": "Lithium",
+      "drug_b": "Ibuprofen",
+      "aliases_a": ["lithium", "lithobid", "eskalith"],
+      "aliases_b": ["ibuprofen", "naproxen", "nsaid"],
+      "severity": "nặng",
+      "description_vi": "NSAIDs làm giảm thải trừ Lithium qua thận, gây tăng nồng độ Lithium và nguy cơ ngộ độc.",
+      "recommendation_vi": "Tránh kết hợp. Theo dõi nồng độ Lithium máu thường xuyên nếu bắt buộc phải dùng.",
+      "mechanism_vi": "NSAIDs ức chế prostaglandin thận, làm giảm lưu lượng máu thận và giảm thải trừ Lithium."
+    },
+    {
+      "drug_a": "Tetracycline",
+      "drug_b": "Antacid",
+      "aliases_a": ["tetracycline", "doxycycline", "minocycline", "vibramycin"],
+      "aliases_b": ["antacid", "calcium carbonate", "magnesi", "maalox", "mylanta", "thuốc dạ dày"],
+      "severity": "trung bình",
+      "description_vi": "Thuốc kháng acid và canxi làm giảm hấp thu Tetracycline đáng kể, giảm hiệu quả điều trị.",
+      "recommendation_vi": "Uống Tetracycline ít nhất 2 giờ trước hoặc 4-6 giờ sau khi dùng thuốc kháng acid.",
+      "mechanism_vi": "Ion kim loại hóa trị 2 và 3 (Ca2+, Mg2+, Al3+) tạo phức chelate không hòa tan với Tetracycline."
+    },
+    {
+      "drug_a": "Quinolone",
+      "drug_b": "Antacid",
+      "aliases_a": ["ciprofloxacin", "levofloxacin", "moxifloxacin", "norfloxacin", "ciprobay"],
+      "aliases_b": ["antacid", "calcium", "magnesi", "nhôm hydroxid", "maalox"],
+      "severity": "trung bình",
+      "description_vi": "Thuốc kháng acid làm giảm hấp thu Quinolone, có thể làm kháng sinh mất hiệu lực.",
+      "recommendation_vi": "Uống Quinolone ít nhất 2 giờ trước hoặc 6 giờ sau thuốc kháng acid.",
+      "mechanism_vi": "Tương tự Tetracycline - tạo phức chelate với ion kim loại."
+    },
+    {
+      "drug_a": "Warfarin",
+      "drug_b": "Ciprofloxacin",
+      "aliases_a": ["warfarin", "coumadin"],
+      "aliases_b": ["ciprofloxacin", "ciprobay", "cipro"],
+      "severity": "nặng",
+      "description_vi": "Ciprofloxacin ức chế chuyển hóa Warfarin, làm tăng INR và nguy cơ chảy máu nghiêm trọng.",
+      "recommendation_vi": "Theo dõi INR chặt chẽ khi bắt đầu hoặc ngừng Ciprofloxacin. Điều chỉnh liều Warfarin khi cần.",
+      "mechanism_vi": "Ciprofloxacin ức chế CYP1A2, làm giảm chuyển hóa R-Warfarin và tăng nồng độ thuốc."
+    },
+    {
+      "drug_a": "Sildenafil",
+      "drug_b": "Nitrate",
+      "aliases_a": ["sildenafil", "viagra", "revatio", "tadalafil", "cialis", "vardenafil"],
+      "aliases_b": ["nitroglycerin", "isosorbide", "nitrate", "nitro", "isoket"],
+      "severity": "chống chỉ định",
+      "description_vi": "Kết hợp này gây tụt huyết áp nghiêm trọng, có thể đe dọa tính mạng.",
+      "recommendation_vi": "CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI. Không dùng PDE5 inhibitor trong vòng 24-48 giờ sau khi dùng Nitrate.",
+      "mechanism_vi": "Cả hai đều tăng cGMP và giãn mạch - tác dụng cộng hưởng gây tụt áp nguy hiểm."
+    },
+    {
+      "drug_a": "MAO Inhibitor",
+      "drug_b": "Tramadol",
+      "aliases_a": ["phenelzine", "tranylcypromine", "selegiline", "mao inhibitor", "maoi"],
+      "aliases_b": ["tramadol", "ultram"],
+      "severity": "chống chỉ định",
+      "description_vi": "Kết hợp MAOI và Tramadol có thể gây hội chứng serotonin nguy hiểm đến tính mạng.",
+      "recommendation_vi": "CHỐNG CHỈ ĐỊNH. Không dùng Tramadol trong vòng 14 ngày sau khi ngừng MAOI.",
+      "mechanism_vi": "MAOI ức chế enzym phân giải serotonin, Tramadol tăng giải phóng serotonin - kết hợp gây tích lũy serotonin độc hại."
+    },
+    {
+      "drug_a": "Potassium",
+      "drug_b": "ACE Inhibitor",
+      "aliases_a": ["potassium", "kali", "kaleorid", "slow-k", "kali clorua"],
+      "aliases_b": ["captopril", "enalapril", "lisinopril", "perindopril", "ramipril"],
+      "severity": "trung bình",
+      "description_vi": "ACE Inhibitor làm giảm bài tiết Kali, bổ sung thêm Kali có thể gây tăng Kali máu nguy hiểm.",
+      "recommendation_vi": "Theo dõi nồng độ Kali máu thường xuyên. Chỉ bổ sung Kali khi có chỉ định và theo dõi chặt.",
+      "mechanism_vi": "ACE Inhibitor ức chế Aldosterone, làm giảm bài tiết Kali qua thận."
+    },
+    {
+      "drug_a": "Calcium Channel Blocker",
+      "drug_b": "Beta Blocker",
+      "aliases_a": ["verapamil", "diltiazem", "amlodipine", "nifedipine", "felodipine"],
+      "aliases_b": ["metoprolol", "atenolol", "bisoprolol", "carvedilol", "propranolol"],
+      "severity": "trung bình",
+      "description_vi": "Verapamil/Diltiazem kết hợp Beta Blocker có thể gây nhịp tim chậm và block nhĩ thất.",
+      "recommendation_vi": "Theo dõi nhịp tim chặt chẽ. Lưu ý đặc biệt với Verapamil và Diltiazem (không phải Dihydropyridine).",
+      "mechanism_vi": "Cả hai ức chế dẫn truyền nhĩ thất theo cơ chế khác nhau - tác dụng cộng hưởng."
+    }
+  ]
+}
